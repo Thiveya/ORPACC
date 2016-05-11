@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Government of Alberta</title>
+	
+	<!-- Bootstrap -->
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Custom code -->
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<img src="assets/header.png" alt="header">
+	</header>
+	<!-- Content -->
+	<div class="main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Employer Base Data</h1>
+					<hr>
+
+					<form class="form-horizontal">
+						<h3>Business information</h3>
+						<div class="form-group">
+							<label for="EmyName" class="col-sm-4 control-label">Employer name</label>
+							<div class="col-sm-5">
+
+								<span class="form-text">Employer ABC</span>
+
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="EmyName" class="col-sm-4 control-label">Business number</label>
+							<div class="col-sm-5">
+
+								<span class="form-text">6876868</span>
+
+							</div>
+						</div>
+
+						<hr>
+
+						<h3>Employer Mailing Address</h3>
+						<div class="form-group">
+							<label for="ad1" class="col-sm-4 control-label">Address line 1:</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="ad1" placeholder="eg: Unit 45, Davis St">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="add2" class="col-sm-4 control-label">Address line 2</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="add2" placeholder="">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="city" class="col-sm-4 control-label">City</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="city" placeholder="eg: Calgary">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="pro" class="col-sm-4 control-label">Province</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="pro" placeholder="eg: Alberta">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="postalcode" class="col-sm-4 control-label">Postal code</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="postalcode" placeholder="eg: H3K 84R">
+							</div>
+						</div>
+
+						<hr>
+
+						<h3>Employer Location Address</h3>
+
+						<div class="form-group">
+							<label for="mail" class="col-sm-4 control-label">Same as mail?</label>
+							<div class="col-sm-5">
+								<div class="radio">
+									<label>
+										<input type="radio" name="mail" id="yes" value="yes" data-toggle="alt-collapse" data-target="#yes-panel">
+										Yes
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="mail" id="no" value="no" data-toggle="alt-collapse" data-target="#no-panel">
+										Enter option here
+									</label>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="panel-group">
+	
+								<div class="panel-collapse collapse" id="yel-panel">hello</div>
+								<div class="panel-collapse collapse" id="no-panel">Thiveya</div>
+							
+						</div>
+
+						<div class="form-group">
+							<label for="phone" class="col-sm-4 control-label">Employer phone</label>
+							<div class="col-sm-5">
+								<input type="phone" class="form-control" id="phone" placeholder="eg: 546 787 675">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="web" class="col-sm-4 control-label">Website url</label>
+							<div class="col-sm-5">
+								<input type="email" class="form-control" id="web" placeholder="eg: abcinc.com">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="buscret" class="col-sm-4 control-label">If you are a new business after 31-Dec-2016, enter business creation date</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="buscret" placeholder="">
+							</div>
+						</div>
+
+						<hr>
+
+						<h3>Contact person detail</h3>
+
+						<p>Connected person is defined in subsection
+							8500(3) of the Income Tax Regulations and
+							includes a person who meets one or more of the
+							following conditions. The person:
+							Owns, directly or indirectly, at least 10% of the
+							issued shares of any class of the capital stock of
+							the employer, or of any other corporation that is
+							related to the employer;
+							Does not deal at arm’s length with the employer;
+							or
+							Is a specified shareholder of the employer under
+							paragraph (d) of the definition of “specified
+							shareholder” in subsection 248(1) of the Income
+							Tax Act.</p>
+
+							<div class="form-group">
+								<label for="Contact name" class="col-sm-4 control-label">Contact name</label>
+								<div class="col-sm-5">
+									<span class="form-text">Jane Doe</span>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="ContactTitle" class="col-sm-4 control-label">Contact title</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" id="ContactTitle" placeholder="">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="Contact email" class="col-sm-4 control-label">Contact email</label>
+								<div class="col-sm-5">
+									<input type="email" class="form-control" id="Contact email" placeholder="eg: abc@mail.com">
+								</div>
+							</div>	
+
+							<div class="form-group">
+								<label for="ph" class="col-sm-4 control-label">Contact phone</label>
+								<div class="col-sm-5">
+									<input type="phone" class="form-control" id="ph" placeholder="eg; 648 787 5786">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="conpref" class="col-sm-4 control-label">Communication preference</label>
+								<div class="col-sm-5">
+									<div class="radio">
+										<label>
+											<input type="radio" name="email" id="email" value="email" >
+											Email
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="ph" id="ph" value="ph">
+											Phone
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<hr>
+
+							<h3>Preference</h3>
+
+							<div class="form-group">
+								<label for="lan" class="col-sm-4 control-label">Language</label>
+								<div class="col-sm-5">
+									<div class="radio">
+										<label>
+											<input type="radio" name="lan" id="eng" value="eng">
+											English
+										</label>
+									</div>
+									<div class="radio">
+										<label>
+											<input type="radio" name="lan" id="fr" value="fr">
+											French
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="ind" class="col-sm-4 control-label">Sector / Industry type</label>
+								<div class="col-sm-5">
+									<select class="form-control">
+										<option>Media</option>
+										<option>Manufacturing</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="conperson" class="col-sm-4 control-label">Does the employer have any connected persons?</label>
+								<div class="col-sm-5">
+									<div class="radio">
+										<label>
+											<input type="radio" name="connect" id="yes" value="yes">
+											Yes
+										</label>
+									</div>
+
+									<div class="radio">
+										<label>
+											<input type="radio" name="connect" id="no" value="no">
+											No
+										</label>
+									</div>
+
+
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="CRA" class="col-sm-4 control-label">CRA remittance cycle</label>
+								<div class="col-sm-5">
+									<select class="form-control">
+										<option>Weekly</option>
+										<option>Monthly</option>
+										<option>Quarterly</option>
+										<option>Yearly</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="btn-container">
+								<div class="col-md-offset-4">
+									<a type="button" class="btn btn-default" href="login.html">Save</a>											 	
+									<a type="button" class="btn btn-primary" href="Employer-Type.html">Next</a>											 	
+								</div>
+							</div>
+
+						</div>				
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer>
+			<div class="footer">
+				<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>		
+			</div>
+		</footer>
+	</body>
+	</html>

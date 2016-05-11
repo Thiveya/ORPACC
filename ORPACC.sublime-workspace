@@ -1,0 +1,1041 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"twitter",
+				"twitter-feed"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"fl",
+				"fl-l	float: left;"
+			],
+			[
+				"td",
+				"td-n	text-decoration: none;"
+			],
+			[
+				"bg",
+				"bgimg	grunt-icon"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "snpri",
+		"selected_items":
+		[
+			[
+				"snpri",
+				"Snippet: primary-button"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"ne",
+				"ANF: New File"
+			],
+			[
+				"synta text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syntext",
+				"Set Syntax: Textile"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"syntax ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"delete",
+				"ANF: Delete Current File"
+			],
+			[
+				"dele",
+				"ANF: Delete Current File"
+			],
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				"",
+				"ANF: Rename File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/bootstrap",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/bootstrap/css",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/bootstrap/js",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/css",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/js"
+	],
+	"file_history":
+	[
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Attestation.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Employer-Type.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/employer-base-data.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/create-new-msg.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/css/style.css",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/login.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/js/script.js",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/home.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/register.html",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/select.sublime-snippet",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/index.html",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/tool-tip.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/radio.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/checkbox.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/dropdown-option.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/dropdown.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/untitled",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/horizontal-form",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/bootstrap-shortcuts.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/secondary-button.sublime-snippet",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/css/normalize.css",
+		"/Users/thiveya.muthu/Desktop/Zone Style Library Assets/Scripts/bah-bundle.js",
+		"/Users/thiveya.muthu/Desktop/TTI-TeamPage-Help/en.html",
+		"/Users/thiveya.muthu/Desktop/TTI-TeamPage-Help/fr.html",
+		"/Users/thiveya.muthu/Documents/UX/Metrolinx/Template url/Template7-file",
+		"/Users/thiveya.muthu/Documents/UX/Metrolinx/Template url/Template7-file.mdown",
+		"/Users/thiveya.muthu/Documents/UX/IDRC - Think Tank/Learning Events page/TTIX 2015.html",
+		"/Users/thiveya.muthu/Documents/UX/IDRC - Think Tank/Learning Events page/TTIX 2012.html",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/thiveya.muthu/Documents/UX/IDRC - Think Tank/Learning Events page/TTIX 2015-original.html",
+		"/Users/thiveya.muthu/Desktop/_ForCole/navi-sidebar-design.css",
+		"/Users/thiveya.muthu/Documents/FED/FITC-Notes/FITC-note.mdown",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/vendor/trip-advisor.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/vendor/tripadvisor.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/main.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter-feed/twitter-feed.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter-feed/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/trip-advisor-block/_trip-advisor-block.scss",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/trip-advisor-block/trip-advisor-block.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/trip-advisor-block/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/trip-advisor-block/trip-advisor-block.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/_components.scss",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/styleguide/categories/components.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter-feed/twitter-feed.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/resort-block/resort-block.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/resort-block/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/CMSScripts/RequireJS/require.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/styleguide/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter-feed/_twitter-feed.scss",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/styleguide/categories/page-templates.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/resort-activities-events/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/winter-activities-list/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter/index.html",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter/_twitter.scss",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/components/twitter/twitter.js",
+		"/Users/thiveya.muthu/Work/Ski-website/HelloBC Ski/CMS/UI/src/main.scss",
+		"/Users/thiveya.muthu/Work/Ski/HelloBC Ski/CMS/UI/src/templates/home-page/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/HelloBC Ski/CMS/UI/src/templates/two-column/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/HelloBC Ski/CMS/UI/src/templates/one-column/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/resort-activities-events/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/HelloBC Ski/CMS/UI/styleguide/categories/page-templates.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/styles/components/_typography.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/subscription-form/_subscription-form.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/card-grid/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/card-grid/_card-grid.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/mountain-stats/_mountain-stats.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/mountain-stats/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/content-header/_content-header.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/resort-block/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/social-channels/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-map/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ski-map/ski-map.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/winter-activities-list/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/offer-thumbnail/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-offer/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-link/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/winter-activities-list/_winter-activities-list.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-link/_featured-link.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/styleguide/categories/components.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/plan-your-trip/_plan-your-trip.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-offer/_featured-offer.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/plan-your-trip/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/_components.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/resort-activities-events/_resort-activities-events.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/hero-intro/_hero-intro.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/hero-intro/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/resort-block/_resort-block.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/offer-thumbnail/_offer-thumbnail.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/styles/components/_icons.scss",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/SCSS/grunt-icon.sublime-snippet",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/snow-conditions/_snow-conditions.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/snow-conditions/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/bower_components/marked/component.json",
+		"/Users/thiveya.muthu/Work/Ski/UI/styleguide/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/search-result/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/search-result/_search-result.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/site-footer/_site-footer.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/content-carousel/_content-carousel.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/content-carousel/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components.js",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/content-carousel/content-carousel.js",
+		"/Users/thiveya.muthu/Work/Ski/UI/bower_components/ko-modal/ko-modal.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/social-channels/_social-channels.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/site-footer/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/bower_components/compass/doc-src/content/examples/compass/layout/sticky-footer.haml",
+		"/Users/thiveya.muthu/Work/Ski/UI/bower_components/compass/examples/blueprint_plugins/src/link_icons.scss",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/HTML/placeholder-image.sublime-snippet",
+		"/Users/thiveya.muthu/Work/Ski/place-holder-image.sublime-snippet",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/HTML/place-holder-image",
+		"/Users/thiveya.muthu/Documents/FED/DBC-ski-site/FED/UI/styleguide/categories/components.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-list/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-list/_featured-list.scss",
+		"/Users/thiveya.muthu/Documents/FED/DBC-ski-site/FED/UI/src/components.js",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/winter-Activities-list/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/winter-Activities-list/_winter-activities-list.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/subscription-form/demo/index.html",
+		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/SCSS/font-size.sublime-snippet",
+		"/Users/thiveya.muthu/Work/Ski/UI/node_modules/grunt-browser-sync/node_modules/browser-sync/node_modules/browser-sync-ui/static/components/footer.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/styles/components/_colors.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/site-navigation/_site-navigation.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-map/_featured-map.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/block-logical.js",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ko-glance-block/_ko-glance-block.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/bower_components/compass/examples/blueprint_plugins/src/buttons.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/main.scss",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ko-glance-block/demo/index.html",
+		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ko-glance-block/ko-glance-block.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.js, ,/Users/thiveya.muthu/Desktop/Zone Style Library Assets/Scripts",
+			"*.js",
+			"/Users/thiveya.muthu/Work/Ski, *.scss",
+			"/Users/thiveya.muthu/Work/Ski/UI",
+			",/Users/thiveya.muthu/Documents/FED/DBC-ski-site/FED/UI",
+			"*",
+			"*.html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"btn-container",
+			"Weekly",
+			"connect",
+			"Media",
+			"h2",
+			"busines",
+			"h2",
+			"Eg",
+			"mail",
+			"col-sm-3",
+			"6876868",
+			"name",
+			"Strong",
+			"bold",
+			"em",
+			"UserID",
+			"col-sm-5",
+			"col-sm-3",
+			"span",
+			"button",
+			"hover",
+			"h2",
+			"business",
+			"h2",
+			"h1",
+			"button",
+			"Ans",
+			"ans",
+			"Ans",
+			"ans",
+			"col-sm-2",
+			"col-sm-10",
+			"button",
+			"optionsRadios",
+			"dLabel",
+			"{",
+			"Email",
+			"inputEmail3",
+			"h2",
+			"8",
+			"script",
+			"/bootstrap/",
+			"search",
+			"search within",
+			"search",
+			"serach",
+			"serach within",
+			"search ",
+			"search with",
+			"search ",
+			"<h3><strong>",
+			"strong",
+			">\n",
+			"session detai",
+			"<p>&nbsp;</p>",
+			"<div class=\"trigger\">&nbsp;</div>",
+			"class=\"white-box closed\"",
+			"h3",
+			"p",
+			"<strong>",
+			"style=\"color: #000000; text-align: left;",
+			"style=\"font-weight: bold;\"",
+			"style=\"font-weight: bold;",
+			"strong",
+			"font",
+			"&nbsp;",
+			"style=\"color: #730c12;",
+			"&nbsp;",
+			".side-menu ul li .side-menu__toggle",
+			"feed",
+			"twitter",
+			"twitter-feed",
+			"twitter-feed.html",
+			"twitter-feed",
+			"feed",
+			"twitter-feed",
+			"test-element",
+			"data-bind=\"text: skillLevel\"",
+			"ko-collapse",
+			"ko-collapse.html",
+			"twitter",
+			"ko-glance-block",
+			"test-element",
+			"<",
+			"twitter",
+			"column-3",
+			"underscore",
+			"plan-your-trip",
+			"no-",
+			"<",
+			"400x300",
+			"stats",
+			"resort-activities-events",
+			"<i class=\"icon-chevron\"></i>",
+			"resort-activities-events",
+			"//",
+			"olumns-3",
+			"festival",
+			"featured",
+			"mountain-stats",
+			"map",
+			"30",
+			"map",
+			"elevation",
+			"Elevation",
+			"snow-conditions",
+			"fa fa-fw fa-external-link",
+			"href",
+			"search-result",
+			"snow",
+			"snow-conditions",
+			"resort",
+			"color(",
+			"color(\"",
+			"feature",
+			"social-channels",
+			"isInline",
+			"=\"\n",
+			"test-element",
+			"headerSubtitleFont",
+			"featured-link",
+			"resort-block",
+			"difficulty",
+			"skill__icon--easy-difficulty",
+			"Advanced",
+			"<dt><dd><i",
+			"<dl>",
+			"35px, 35px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ORPACC.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"empl",
+				"employer-base-data.html"
+			],
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				".js",
+				"Scripts/bah-bundle.js"
+			],
+			[
+				"main.js",
+				"HelloBC Ski/CMS/UI/src/main.js"
+			],
+			[
+				"twitter.js",
+				"HelloBC Ski/CMS/UI/src/components/twitter-feed/twitter-feed.js"
+			],
+			[
+				"tripadvisorjs",
+				"HelloBC Ski/CMS/UI/src/components/trip-advisor-block/trip-advisor-block.js"
+			],
+			[
+				"main",
+				"HelloBC Ski/CMS/UI/src/main.js"
+			],
+			[
+				"tripadvior/html",
+				"HelloBC Ski/CMS/UI/src/components/trip-advisor-block/trip-advisor-block.html"
+			],
+			[
+				"twitterfeed.js",
+				"HelloBC Ski/CMS/UI/src/components/twitter-feed/twitter-feed.js"
+			],
+			[
+				"comp",
+				"HelloBC Ski/CMS/UI/src/components.js"
+			],
+			[
+				"compone.scs",
+				"HelloBC Ski/CMS/UI/src/_components.scss"
+			],
+			[
+				"styleguidco",
+				"HelloBC Ski/CMS/UI/styleguide/categories/components.html"
+			],
+			[
+				"compoent",
+				"HelloBC Ski/CMS/UI/src/components.js"
+			],
+			[
+				"require.js",
+				"HelloBC Ski/CMS/CMSScripts/RequireJS/require.js"
+			],
+			[
+				"stylecatecompone",
+				"HelloBC Ski/CMS/UI/styleguide/categories/components.html"
+			],
+			[
+				"styleguide",
+				"HelloBC Ski/CMS/UI/styleguide/index.html"
+			],
+			[
+				"twitter-feed",
+				"HelloBC Ski/CMS/UI/src/components/twitter-feed/twitter-feed.js"
+			],
+			[
+				"twitter.scss",
+				"HelloBC Ski/CMS/UI/src/components/twitter-feed/_twitter-feed.scss"
+			],
+			[
+				"component",
+				"HelloBC Ski/CMS/UI/src/components.js"
+			],
+			[
+				"resortactivit",
+				"HelloBC Ski/CMS/UI/src/components/resort-activities-events/demo/index.html"
+			],
+			[
+				"activitlis",
+				"HelloBC Ski/CMS/UI/src/components/winter-activities-list/demo/index.html"
+			],
+			[
+				"main.scss",
+				"HelloBC Ski/CMS/UI/src/main.scss"
+			],
+			[
+				"styleguide.html",
+				"HelloBC Ski/CMS/UI/styleguide/categories/components.html"
+			],
+			[
+				"cardgrind.html",
+				"UI/src/components/card-grid/demo/index.html"
+			],
+			[
+				"card-grid",
+				"UI/src/components/card-grid/_card-grid.scss"
+			],
+			[
+				"mountainstat",
+				"UI/src/components/mountain-stats/_mountain-stats.scss"
+			],
+			[
+				"typo",
+				"UI/src/styles/components/_typography.scss"
+			],
+			[
+				"subscr",
+				"UI/src/components/subscription-form/_subscription-form.scss"
+			],
+			[
+				"contentheader.scs",
+				"UI/src/components/content-header/_content-header.scss"
+			],
+			[
+				"mountain.html",
+				"UI/src/components/mountain-stats/demo/index.html"
+			],
+			[
+				"resortblock",
+				"UI/src/components/resort-block/demo/index.html"
+			],
+			[
+				"social",
+				"UI/src/components/social-channels/demo/index.html"
+			],
+			[
+				"featuremap",
+				"UI/src/components/featured-map/demo/index.html"
+			],
+			[
+				"skimap",
+				"UI/src/components/ski-map/ski-map.html"
+			],
+			[
+				"subscri.sc",
+				"UI/src/components/subscription-form/_subscription-form.scss"
+			],
+			[
+				"winteractivi",
+				"UI/src/components/winter-activities-list/demo/index.html"
+			],
+			[
+				"offerthumb",
+				"UI/src/components/offer-thumbnail/demo/index.html"
+			],
+			[
+				"featuredoffer",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"featurelink.html",
+				"UI/src/components/featured-link/demo/index.html"
+			],
+			[
+				"winteractivit",
+				"UI/src/components/winter-activities-list/_winter-activities-list.scss"
+			],
+			[
+				"winterac/inde",
+				"UI/src/components/winter-activities-list/demo/index.html"
+			],
+			[
+				"featureinde",
+				"UI/src/components/featured-link/demo/index.html"
+			],
+			[
+				"featurelink",
+				"UI/src/components/featured-link/_featured-link.scss"
+			],
+			[
+				"feature",
+				"UI/src/components/featured-offer/_featured-offer.scss"
+			],
+			[
+				"featureoff/inde",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"styleguide/co",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"typogr",
+				"UI/src/styles/components/_typography.scss"
+			],
+			[
+				"componet.scs",
+				"UI/src/_components.scss"
+			],
+			[
+				"mountain",
+				"UI/src/components/mountain-stats/_mountain-stats.scss"
+			],
+			[
+				"compone",
+				"UI/src/_components.scss"
+			],
+			[
+				"resort",
+				"UI/src/components/resort-block/_resort-block.scss"
+			],
+			[
+				"icon",
+				"UI/src/styles/components/_icons.scss"
+			],
+			[
+				"featureofferinde",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"featureofe",
+				"UI/src/components/featured-offer/_featured-offer.scss"
+			],
+			[
+				"compoen.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"offerthumbna",
+				"UI/src/components/offer-thumbnail/demo/index.html"
+			],
+			[
+				"compon",
+				"UI/src/_components.scss"
+			],
+			[
+				"rsort-block",
+				"UI/src/components/resort-block/_resort-block.scss"
+			],
+			[
+				"offer-thumb",
+				"UI/src/components/offer-thumbnail/_offer-thumbnail.scss"
+			],
+			[
+				"offerthu",
+				"UI/src/components/offer-thumbnail/demo/index.html"
+			],
+			[
+				"compne.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"compn",
+				"UI/src/_components.scss"
+			],
+			[
+				"typos",
+				"UI/src/styles/components/_typography.scss"
+			],
+			[
+				"featureoffer",
+				"UI/src/components/featured-offer/_featured-offer.scss"
+			],
+			[
+				"styleguide/com",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"component.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"component.js",
+				"UI/bower_components/marked/component.json"
+			],
+			[
+				"styleguide/compo",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"styleguid",
+				"UI/styleguide/index.html"
+			],
+			[
+				"componen.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"compo",
+				"UI/src/_components.scss"
+			],
+			[
+				"compon.scs",
+				"UI/src/_components.scss"
+			],
+			[
+				"ko-moda",
+				"UI/bower_components/ko-modal/ko-modal.html"
+			],
+			[
+				"typogra",
+				"UI/src/styles/components/_typography.scss"
+			],
+			[
+				"typography",
+				"UI/src/styles/components/_typography.scss"
+			],
+			[
+				"footer",
+				"UI/src/components/site-footer/_site-footer.scss"
+			],
+			[
+				"style/com",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"site-footer",
+				"UI/src/components/site-footer/_site-footer.scss"
+			],
+			[
+				"footer/demo",
+				"UI/src/components/site-footer/demo/index.html"
+			],
+			[
+				"icon.sc",
+				"UI/src/styles/components/_icons.scss"
+			],
+			[
+				"icon.scs",
+				"UI/bower_components/compass/examples/blueprint_plugins/src/link_icons.scss"
+			],
+			[
+				"componet.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"resort-block",
+				"UI/src/components/resort-block/demo/index.html"
+			],
+			[
+				"compne.scs",
+				"UI/src/_components.scss"
+			],
+			[
+				"featurelink.scs",
+				"UI/src/components/featured-link/_featured-link.scss"
+			],
+			[
+				"featurelinkdemo",
+				"UI/src/components/featured-link/demo/index.html"
+			],
+			[
+				"_componet",
+				"UI/src/_components.scss"
+			],
+			[
+				"component.scs",
+				"UI/src/_components.scss"
+			],
+			[
+				"subscrb.",
+				"UI/src/components/subscription-form/_subscription-form.scss"
+			],
+			[
+				"styleguide/comp",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"offer.html",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"fetureoff/in",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"style/comp",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"compon.s",
+				"UI/src/_components.scss"
+			],
+			[
+				"resort.html",
+				"UI/src/components/resort-block/demo/index.html"
+			],
+			[
+				"styleguide/cate",
+				"UI/styleguide/categories/components.html"
+			],
+			[
+				"feature-offer",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"icon.",
+				"UI/src/styles/components/_icons.scss"
+			],
+			[
+				"footer.sc",
+				"UI/src/components/site-footer/_site-footer.scss"
+			],
+			[
+				"comp.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"compos.sc",
+				"UI/src/_components.scss"
+			],
+			[
+				"color",
+				"UI/src/styles/components/_colors.scss"
+			],
+			[
+				"resort/in",
+				"UI/src/components/resort-block/demo/index.html"
+			],
+			[
+				"icon.scss",
+				"UI/bower_components/compass/examples/blueprint_plugins/src/link_icons.scss"
+			],
+			[
+				"icon.s",
+				"UI/src/styles/components/_icons.scss"
+			],
+			[
+				"navigation",
+				"UI/src/components/site-navigation/_site-navigation.scss"
+			],
+			[
+				"galceblock",
+				"UI/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/block-logical.js"
+			],
+			[
+				"glance",
+				"UI/src/components/ko-glance-block/_ko-glance-block.scss"
+			],
+			[
+				"featoffer",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"componen.js",
+				"UI/src/components.js"
+			],
+			[
+				"componen.scss",
+				"UI/src/_components.scss"
+			],
+			[
+				"featured.html",
+				"UI/src/components/featured-offer/demo/index.html"
+			],
+			[
+				"butto",
+				"UI/bower_components/compass/examples/blueprint_plugins/src/buttons.scss"
+			],
+			[
+				"typograp",
+				"UI/src/styles/components/_typography.scss"
+			],
+			[
+				"mixin/colo",
+				"UI/src/styles/mixins/_color.scss"
+			],
+			[
+				"ko-glance-block.js",
+				"UI/src/components/ko-glance-block/ko-glance-block.js"
+			],
+			[
+				"glance-block",
+				"UI/src/components/glance-block/glance-block.js"
+			],
+			[
+				"glanceblock",
+				"UI/src/components/glance-block/glance-block.html"
+			],
+			[
+				"layout.html",
+				"views/global/layout.html"
+			],
+			[
+				"lsider.js",
+				"public/js/jquery.slider.js"
+			],
+			[
+				"macros/layout.html",
+				"views/global/macros/layout.html"
+			],
+			[
+				"blogpost.html",
+				"views/global/macros/blogPost.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
