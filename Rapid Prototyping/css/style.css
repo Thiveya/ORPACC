@@ -25,6 +25,10 @@ header {
 	margin-top: 20px;
 }
 
+.input-width {
+	width: 300px;
+}
+
 footer {
 	width: 100%;
 	display: block;
