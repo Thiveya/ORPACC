@@ -18,24 +18,42 @@ $(function () {
 // Dropdown show & hide
 
   $('[data-toggle="dropdown"]').dropdown('toggle')
-  $('.wrapper-data').hide();
-  $('.select-options').change(function(){
+  $('.wrapper-hide').hide();
+  $('.wrapper-duplicate .select-options').change(function(){
     var selectedOption = $( "select option:selected" ).data('option');
-    $('.wrapper-data').each(function(){
+    $('.wrapper-duplicate .wrapper-hide').each(function(){
       if ($(this).data('show') == selectedOption){
         $(this).show()
       }else{
         $(this).hide()
       }
-      // console.log($(this).html());
-       
     });
   });
 
+
+
+  function secondDuplicated(){
+  $('.duplicated .select-options').change(function(){
+    var a = $(this).closest('.duplicated').index();
+    var selectedOption = $( ".duplicated select option:selected" ).data('option');
+    $('.duplicated .wrapper-hide').each(function(){
+      if ($(this).data('show') == selectedOption){
+        $(this).show()
+      }else{
+        $(this).hide()
+      }
+    });
+  });
+  }
+
+
+
 // Duplicate form
 
-  $('.add-subset').bind('click', function(){
-    $('#duplicate').clone().appendTo('.append');
+  $('.add-subset').click(function(){
+
+    $('.wrapper-duplicate .duplicate').clone().appendTo('.append').addClass('duplicated');
+    secondDuplicated();
     return false;
   })
 

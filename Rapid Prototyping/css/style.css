@@ -3,7 +3,12 @@ header {
 	width: 100%;
 	display: block;
 	background-color: #D8D8D8;
-	text-align: center;
+}
+
+.header-wrapper {
+	width: 902px;
+	margin: auto;
+	padding: 20px 0px;
 }
 
 .main {
@@ -17,6 +22,8 @@ header {
 	margin-bottom: 20px;
 }
 
+/* Well */
+
 .well h2 {
 	margin-top: 0px;
 }
@@ -28,6 +35,14 @@ header {
 .input-width {
 	width: 300px;
 }
+
+/* Label left align for form */
+
+.form-horizontal.text-left .control-label {
+    text-align: left;
+}
+
+/* Footer */
 
 footer {
 	width: 100%;
@@ -41,9 +56,14 @@ footer {
 	width: 930px;
 }
 
+
+/* Tool tip */
+
 .tooltip-inner {
 	text-align: left;
 }
+
+/* Layout - Button container */
 
 .btn-container {
 		margin-top: 50px;

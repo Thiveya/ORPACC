@@ -11,26 +11,31 @@
 	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<!-- Custom code -->
-	<script src="js/script.js"></script>
+	<!-- <script src="js/script.js"></script> -->
 	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
 </head>
 <body>
 	<!-- Header -->
 	<header>
-		<img src="assets/header.png" alt="header">
+		<div class="header-wrapper">
+			<a href="home.html">
+				<img class="logo" src="assets/logo.png" alt="header">	
+			</a>
+			<a type="button" class="btn btn-primary pull-right" href="sign-out.html">Sign out</a>
+		</div>
 	</header>
 	<!-- Content -->
 	<div class="main">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Business Information</h1>
+					<h1>Employer Type, Number of employees and Pension Plan Details</h1>
 					<hr>
 
 					<form class="">
 						<h3>Employer Type</h3>
 
-						<p>Self-employed:</p>
+<!-- 						<p>Self-employed:</p>
 						<ul>
 							<li>Do not have any employees</li>
 							<li>Incorporated companies do not qualify as self-employed</li>
@@ -38,123 +43,194 @@
 
 						<p>Federally regulated business and industries:</p>
 						<p>If you are employed by one of the following
-businesses and industries, you are more than
-likely working in a federally regulated sector:</p>
+							businesses and industries, you are more than
+							likely working in a federally regulated sector:</p>
 
-<ul>
-	<li>banks</li>
-	<li>marine shipping, ferry and port services</li>
-	<li>air transportation, including airports,
-aerodromes and airlines</li>
-<li>railway and road transportation that involves
-crossing provincial or international borders</li>
-<li>canals, pipelines, tunnels and bridges
-(crossing provincial borders)</li>
-<li>telephone, telegraph and cable systems</li>
-<li>radio and television broadcasting</li>
-<li>grain elevators, feed and seed mills</li>
-<li>uranium mining and processing</li>
-<li>businesses dealing with the protection of
-fisheries as a natural resource</li>
-<li>many First Nation activities</li>
-<li>most federal Crown corporations</li>
-<li>private businesses necessary</li>
-</ul>
+							<ul>
+								<li>banks</li>
+								<li>marine shipping, ferry and port services</li>
+								<li>air transportation, including airports,
+									aerodromes and airlines</li>
+									<li>railway and road transportation that involves
+										crossing provincial or international borders</li>
+										<li>canals, pipelines, tunnels and bridges
+											(crossing provincial borders)</li>
+											<li>telephone, telegraph and cable systems</li>
+											<li>radio and television broadcasting</li>
+											<li>grain elevators, feed and seed mills</li>
+											<li>uranium mining and processing</li>
+											<li>businesses dealing with the protection of
+												fisheries as a natural resource</li>
+												<li>many First Nation activities</li>
+												<li>most federal Crown corporations</li>
+												<li>private businesses necessary</li>
+											</ul> -->
 
-						<div class="form-group">
-							<label for="Employer type" class="control-label">Employer type</label>
-							<div class="input-width">
-								<select class="form-control">
-									<option>Self-employed</option>
-									<option>Federally regulated - 100% of employees</option>
-									<option>Federally regulated - not all employees</option>
-									<option>None of the above</option>
-								</select>
-							</div>
-<!-- 							<span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="right" data-trigger="hover focus" data-html="true" title="
-						<p>Self-employed:</p>
-						<ul>
-							<li>Do not have any employees</li>
-							<li>Incorporated companies do not qualify as self-employed</li>
-						</ul>
+											<div class="form-group">
+												<label for="Employer type" class="control-label">Employer type <span class="glyphicon glyphicon-question-sign" data-toggle="tooltip" data-placement="right" data-trigger="hover focus" data-html="true" title="<p>Self-employed:</p>
+													<ul>
+														<li>Do not have any employees</li>
+														<li>Incorporated companies do not qualify as self-employed</li>
+													</ul>
 
-						<p>Federally regulated business and industries:</p>
-						<p>If you are employed by one of the following
-businesses and industries, you are more than
-likely working in a federally regulated sector:</p><ul>
-	<li>banks</li>
-	<li>marine shipping, ferry and port services</li>
-	<li>air transportation, including airports,
-aerodromes and airlines</li>
-<li>railway and road transportation that involves
-crossing provincial or international borders</li>
-<li>canals, pipelines, tunnels and bridges
-(crossing provincial borders)</li>
-<li>telephone, telegraph and cable systems</li>
-<li>radio and television broadcasting</li>
-<li>grain elevators, feed and seed mills</li>
-<li>uranium mining and processing</li>
-<li>businesses dealing with the protection of
-fisheries as a natural resource</li>
-<li>many First Nation activities</li>
-<li>most federal Crown corporations</li>
-<li>private businesses necessary</li>
-</ul>"></span> -->
-						</div>
+													<p>Federally regulated business and industries:</p>
+													<p>If you are employed by one of the following businesses and industries, you are more than likely working in a federally regulated sector:</p>
+													<ul>
+														<li>banks</li>
+														<li>marine shipping, ferry and port services</li>
+														<li>air transportation, including airports, aerodromes and airlines</li>
+														<li>railway and road transportation that involves crossing provincial or international borders</li>
+														<li>canals, pipelines, tunnels and bridges (crossing provincial borders)</li>
+														<li>telephone, telegraph and cable systems</li>
+														<li>radio and television broadcasting</li>
+														<li>grain elevators, feed and seed mills</li>
+														<li>uranium mining and processing</li>
+														<li>businesses dealing with the protection of fisheries as a natural resource</li>
+														<li>many First Nation activities</li>
+														<li>most federal Crown corporations</li>
+														<li>private businesses necessary</li>
+													</ul>"></span></label>
+													<div class="input-width">
+														<select class="form-control select-options">
+															<option>Select</option>
+															<option data-option="easy-way">Self-employed</option>
+															<option data-option="easy-way">Federally regulated - 100% of employees</option>
+															<option data-option="hard-way">Federally regulated - not all employees</option>
+															<option data-option="hard-way">None of the above</option>
+														</select>
+													</div>
 
-						<hr>
+												</div>
 
-						<h3>Number of employees and Pension Plan</h3>
+												<hr>
+
+												<h3>Number of employees and Pension Plan</h3>
 
 
-						<div class="form-group">
-							<label for="noofworker" class="control-label">Number of employees who work in Alberta</label>
-							<div class="input-width">
-								<input type="text" class="form-control" id="noofworker" placeholder="">
-							</div>
-						</div>
+												<div class="form-group">
+													<label for="noofworker" class="control-label">Number of employees who work in Alberta</label>
+													<div class="input-width">
+														<input type="text" class="form-control" id="noofworker" placeholder="">
+													</div>
+												</div>
 
-						<div class="form-group">
-							<label for="question" class="control-label">Do you have a registered pension plan for some or all of your employees?</label>
-							<div class="input-width">
-								<div class="radio">
-									<label>
-										<input type="radio" name="yesorno" id="yes" value="yes">
-										Yes
-									</label>
-									<div class="radio">
-										<label>
-											<input type="radio" name="yesorno" id="no" value="no">
-											No
-										</label>
+												<div class="form-group">
+													<label for="question" class="control-label">Do you have a registered pension plan for some or all of your employees?</label>
+													<div class="input-width">
+														<div class="yesno-options">
+															<div class="radio">
+																<label>
+																	<input type="radio" name="yesorno" id="" value="yes">
+																	Yes
+																</label>
+															</div>
+															<div class="radio">
+																<label>
+																	<input type="radio" name="yesorno" id="" value="no">
+																	No
+																</label>
+															</div>
+
+														</div>
+													</div>
+												</div>
+
+												<div class="wrapper-groups">
+													<div class="default">
+														<div class="btn-container">
+															<div class="col-md-offset-4">
+																<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
+																<a type="button" class="btn btn-default" href="#">Save</a>											 	
+																<a type="button" class="btn btn-primary" href="Attestation.html">Next</a>											 	
+															</div>
+														</div>
+													</div>
+
+													<div class="collapse" data-show="easy-way">
+														<div class="btn-container">
+															<div class="col-md-offset-4">
+																<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
+																<a type="button" class="btn btn-default" href="#">Save</a>											 	
+																<a type="button" class="btn btn-primary" href="Attestation.html">Next</a>											 	
+															</div>
+														</div>
+													</div>
+
+													<div class="collapse" data-show="hard-way">
+														<div class="btn-container">
+															<!-- No -->
+															<div class="col-md-offset-4 option-no">
+																<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
+																<a type="button" class="btn btn-default" href="#">Save</a>											 	
+																<a type="button" class="btn btn-primary" href="subset-question.html">Next</a>			
+																<!-- Pension-plan-info.html -->
+															</div>
+															<!-- Yes -->
+															<div class="col-md-offset-4 option-yes" style="display:none">
+																<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
+																<a type="button" class="btn btn-default" href="#">Save</a>											 	
+																<a type="button" class="btn btn-primary" href="Attestation.html">Next</a>											 	
+															</div>
+														</div>
+													</div>
+
+												</div>
+
+											</div>				
+										</form>
+
+
 									</div>
 								</div>
 							</div>
-						</div>
+							<!-- Footer -->
+							<footer>
+								<div class="footer">
+									<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>		
+								</div>
+							</footer>
+							<script>
+	  // $('[data-toggle="dropdown"]').dropdown('toggle')
+  // $('.wrapper-hide').hide();
+  $('.select-options').change(function(){
+  	var selectedOption = $( "select option:selected" ).data('option');
+  	$('.collapse').each(function(){
+  		if ($(this).data('show') == selectedOption){
+  			$(this).addClass('in')
+  			$('.default').hide()
+  		}else{
+  			$(this).removeClass('in')
+			$('.default').hide()
 
-						
+  		}
+  	});
+  });
 
+  $('.yesno-options input').change(function(){
 
-						<div class="btn-container">
-							<div class="col-md-offset-4">
-								<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
-								<a type="button" class="btn btn-default" href="#">Save</a>											 	
-								<a type="button" class="btn btn-primary" href="Attestation.html">Next</a>											 	
-							</div>
-						</div>
+  	if ($('.yesno-options input:checked').val() == 'no'){
+  		$('.option-yes').show();
+  		$('.option-no').hide();
+  	} else {
+  		$('.option-no').show();
+  		$('.option-yes').hide();
+  	}
+  });
 
-					</div>				
-				</form>
+    // Tooltip 
 
+    var $tooltip = $('[data-toggle=tooltip]');
 
-			</div>
-		</div>
-	</div>
-	<!-- Footer -->
-	<footer>
-		<div class="footer">
-			<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>		
-		</div>
-	</footer>
+    $tooltip.each(function() {
+    	var options = $.extend({
+    		placement: 'right',
+    		trigger: 'hover focus',
+    		container: 'body',
+    	}, $(this).data())
+
+    	$(this).tooltip(options)
+    });
+
+</script>
 </body>
 </html>

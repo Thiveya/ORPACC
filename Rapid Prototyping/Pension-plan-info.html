@@ -17,7 +17,12 @@
 <body>
 	<!-- Header -->
 	<header>
-		<img src="assets/header.png" alt="header">
+		<div class="header-wrapper">
+			<a href="home.html">
+				<img class="logo" src="assets/logo.png" alt="header">	
+			</a>
+			<a type="button" class="btn btn-primary pull-right" href="sign-out.html">Sign out</a>
+		</div>
 	</header>
 	<!-- Content -->
 	<div class="main">
@@ -25,7 +30,7 @@
 			<form class="">
 				<h1>Pension Plan Subset Comparability</h1>
 				<hr>
-				<h3>Pension Plan Details</h3>
+						<h3>Subset with pension plan</h3>
 
 				<div class="form-group">
 					<label for="PlanName" class="control-label">Plan name</label>
@@ -51,136 +56,138 @@
 				<hr>
 
 				<!-- Need to duplicate the form when another subset is added-->
+				<div class="wrapper-duplicate">
+					<div class="duplicate well">
 
-				<div id="duplicate">
 
-					<h3>Subset with pension plan</h3>
-
-					<div class="form-group">
-						<label for="SubsetName" class="control-label">Subset</label>
-						<div class="input-width">
-							<input type="text" class="form-control" id="SubsetName" placeholder="" data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="Name for this subset of employees. If there is no existing name, enter an appropriate name that describes the subset.">
-						</div>
-					</div>
-
-					<div class="form-group">
-						<label for="BeneType" class="control-label">Benefit Type</label>
-						<div class="input-width">
-							<select class="form-control select-options">
-								<option>Select</option>
-								<option data-option="defined">Defined Benefit (DB)</option>
-								<option data-option="contribution">Definied Contribution (DC)</option>
-								<option data-option="flatdb">Flat DB</option>
-								<option data-option="flat">Flat $ DC</option>
-								<option data-option="hybrid">Hybrid</option>
-								<option data-option="collectively">Collectively Bargained MEPP</option>
-							</select>
-						</div>
-					</div>
-
-					<!-- Select - will show nothing -->
-
-					<div class="wrapper-groups">
-						<!-- Defined Benefit shows below -->
-						<div class="wrapper-data" data-show="defined">
-							<div class="form-group">
-								<label for="AnnBene" class="control-label">Annual benefit accrual %</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="AnnBene" placeholder="" 		data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="The annual benefit accrual for the DB benefit subset. The value entered is a percentage.">
-								</div>
-							</div>
-						</div>
-						<!-- Defined Contribution -->
-
-						<div  class="wrapper-data" data-show="contribution">
-							<div class="form-group">
-								<label for="emCon" class="control-label">Employer contribution % of base salary earnings</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="emCon" placeholder="">
-								</div>
-							</div>
-
-							<div class="form-group">
-								<label for="MemCon" class="control-label">Member contribution % of base salary earnings</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="MemCon" placeholder="" 		data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="Only enter mandatory contributions in the Employer and Member contributions percentage of base salary earnings (as defined in your plan) for the DC benefit subset. The value entered is a percentage. As an example, the employee contributes 5% of salary and the employer contributes 5%.">
-								</div>
+						<div class="form-group">
+							<label for="SubsetName" class="control-label">Subset name</label>
+							<div class="input-width">
+								<input type="text" class="form-control" id="SubsetName" placeholder="" data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="Name for this subset of employees. If there is no existing name, enter an appropriate name that describes the subset.">
 							</div>
 						</div>
 
-						<!-- Flat DB -->
-						<div  class="wrapper-data" data-show="flatdb"> 
-							<div class="form-group">
-								<label for="AnnBenef" class="control-label">Annual benefit accrual %</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="AnnBenef" placeholder="">
-								</div>
+						<div class="form-group">
+							<label for="BeneType" class="control-label">Benefit Type</label>
+							<div class="input-width">
+								<select class="form-control select-options">
+									<option>Select</option>
+									<option data-option="defined">Defined Benefit (DB)</option>
+									<option data-option="contribution">Definied Contribution (DC)</option>
+									<option data-option="flatdb">Flat DB</option>
+									<option data-option="flat">Flat $ DC</option>
+									<option data-option="hybrid">Hybrid</option>
+									<option data-option="collectively">Collectively Bargained MEPP</option>
+								</select>
 							</div>
 						</div>
 
-						<!-- Flat $ DC -->
-						<div  class="wrapper-data" data-show="flat">
-							<div class="form-group">
-								<label for="EmpCont" class="control-label">Employer contribution % of base salary earnings</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="EmpCont" placeholder="">
+						<!-- Select - will show nothing -->
+
+						<div class="wrapper-groups">
+							<!-- Defined Benefit shows below -->
+							<div class="wrapper-hide" data-show="defined">
+								<div class="form-group">
+									<label for="AnnBene" class="control-label">Annual benefit accrual %</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="AnnBene" placeholder="" 		data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="The annual benefit accrual for the DB benefit subset. The value entered is a percentage.">
+									</div>
+								</div>
+							</div>
+							<!-- Defined Contribution -->
+
+							<div  class="wrapper-hide" data-show="contribution">
+								<div class="form-group">
+									<label for="emCon" class="control-label">Employer contribution % of base salary earnings</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="emCon" placeholder="">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="MemCon" class="control-label">Member contribution % of base salary earnings</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="MemCon" placeholder="" 		data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="Only enter mandatory contributions in the Employer and Member contributions percentage of base salary earnings (as defined in your plan) for the DC benefit subset. The value entered is a percentage. As an example, the employee contributes 5% of salary and the employer contributes 5%.">
+									</div>
 								</div>
 							</div>
 
-							<div class="form-group">
-								<label for="MemCon" class="control-label">Member contribution % of base salary earnings</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="MemCon" placeholder="">
+							<!-- Flat DB -->
+							<div  class="wrapper-hide" data-show="flatdb"> 
+								<div class="form-group">
+									<label for="AnnBenef" class="control-label">Annual benefit accrual %</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="AnnBenef" placeholder="">
+									</div>
 								</div>
 							</div>
+
+							<!-- Flat $ DC -->
+							<div  class="wrapper-hide" data-show="flat">
+								<div class="form-group">
+									<label for="EmpCont" class="control-label">Employer contribution % of base salary earnings</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="EmpCont" placeholder="">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="MemCon" class="control-label">Member contribution % of base salary earnings</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="MemCon" placeholder="">
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Hybrid -->
+							<div  class="wrapper-hide" data-show="hybrid">
+								<div class="form-group" >
+									<label for="TotCon" class="control-label">Total contribution % of base salary earnings</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="TotCon" placeholder="">
+									</div>
+								</div>
+							</div>
+
+							<!-- Collectively Bargained MEPP -->
+							<div  class="wrapper-hide" data-show="collectively">
+								<div class="form-group" >
+									<label for="collbar" class="control-label">Name of Plan Administrator</label>
+									<div class="input-width">
+										<input type="text" class="form-control" id="collbar" placeholder="">
+									</div>
+								</div>
+							</div>
+
+
+							
+
+						</div>
+<!-- 						<div class="yesno-options">
+							<label><input type="radio" name="yesno" value="yes"> Yes<br></label>
+							<label><input type="radio" name="yesno" value="no"> No</label>
+						</div>
+						<div class="option-yes" style="display:none">
+							<input type="text" placeholder="yesssss">
 						</div>
 
-
-						<!-- Hybrid -->
-						<div  class="wrapper-data" data-show="hybrid">
-							<div class="form-group" >
-								<label for="TotCon" class="control-label">Total contribution % of base salary earnings</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="TotCon" placeholder="">
-								</div>
-							</div>
-						</div>
-
-						<!-- Collectively Bargained MEPP -->
-						<div  class="wrapper-data" data-show="collectively">
-							<div class="form-group" >
-								<label for="collbar" class="control-label">Name of Plan Administrator</label>
-								<div class="input-width">
-									<input type="text" class="form-control" id="collbar" placeholder="">
-								</div>
-							</div>
-						</div>
-
-
+						<div class="option-no" style="display:none">
+							<input type="text" placeholder="noooooo">
+						</div> -->
 						
-
-					</div>
-<!-- 					<div class="yesno-options">
-						<label><input type="radio" name="yesno" value="yes"> Yes<br></label>
-						<label><input type="radio" name="yesno" value="no"> No</label>
-					</div>
-					<div class="option-yes" style="display:none">
-						<input type="text" placeholder="yesssss">
 					</div>
 
-					<div class="option-no" style="display:none">
-						<input type="text" placeholder="noooooo">
-					</div> -->
-					
+
 				</div>
 
 				<hr>
 
 				<!-- /END Need to duplicate the form when another subset is added-->
 
-				<p>Do you have another subset?</p>
-
 				<div class="append"></div>
+
+				<p>Do you have another subset?</p>
 
 				<a type="button" class="btn btn-default btn-sm add-subset" href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add another subset</a>
 
@@ -191,7 +198,8 @@
 				<div class="btn-container">
 					<div class="col-md-offset-4">
 						<a type="button" class="btn btn-default" href="#">Back</a>											 	
-						<a type="button" class="btn btn-primary" href="#">Next</a>											 	
+						<a type="button" class="btn btn-default" href="#">Save</a>											 	
+						<a type="button" class="btn btn-primary" href="penion-plan-attestation.html">Next</a>											 	
 					</div>
 				</div>
 

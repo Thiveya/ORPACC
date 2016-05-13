@@ -17,7 +17,12 @@
 <body>
 	<!-- Header -->
 	<header>
-		<img src="assets/header.png" alt="header">
+	<div class="header-wrapper">
+				<a href="home.html">
+		<img class="logo" src="assets/logo.png" alt="header">	
+	</a>
+			<a type="button" class="btn btn-primary pull-right" href="sign-out.html">Sign out</a>
+		</div>
 	</header>
 	<!-- Content -->
 	<div class="main">
@@ -35,6 +40,8 @@
 
 								<span class="form-text">Employer ABC</span>
 
+								<!-- <input type="text" class="form-control" id="Emplyer name" placeholder=""> -->
+
 							</div>
 						</div>
 						<div class="form-group">
@@ -42,6 +49,7 @@
 							<div class="input-width">
 
 								<span class="form-text">6876868</span>
+								<!-- <input type="text" class="form-control" id="Business number" placeholder=""> -->
 
 							</div>
 						</div>
@@ -139,20 +147,6 @@
 
 						<h3>Contact person detail</h3>
 
-						<p>Connected person is defined in subsection
-							8500(3) of the Income Tax Regulations and
-							includes a person who meets one or more of the
-							following conditions. The person:
-							Owns, directly or indirectly, at least 10% of the
-							issued shares of any class of the capital stock of
-							the employer, or of any other corporation that is
-							related to the employer;
-							Does not deal at arm’s length with the employer;
-							or
-							Is a specified shareholder of the employer under
-							paragraph (d) of the definition of “specified
-							shareholder” in subsection 248(1) of the Income
-							Tax Act.</p>
 
 							<div class="form-group">
 								<label for="Contact name" class="control-label">Contact name</label>
@@ -233,7 +227,20 @@
 							</div>
 
 							<div class="form-group">
-								<label for="conperson" class="control-label">Does the employer have any connected persons?</label>
+								<label for="conperson" class="control-label">Does the employer have any connected persons? <span class="glyphicon glyphicon-question-sign" 		data-toggle="tooltip" data-placement="right" data-trigger="hover focus" title="Connected person is defined in subsection
+							8500(3) of the Income Tax Regulations and
+							includes a person who meets one or more of the
+							following conditions. The person:
+							Owns, directly or indirectly, at least 10% of the
+							issued shares of any class of the capital stock of
+							the employer, or of any other corporation that is
+							related to the employer;
+							Does not deal at arm’s length with the employer;
+							or
+							Is a specified shareholder of the employer under
+							paragraph (d) of the definition of “specified
+							shareholder” in subsection 248(1) of the Income
+							Tax Act."></span></label>
 								<div class="input-width">
 									<div class="radio">
 										<label>

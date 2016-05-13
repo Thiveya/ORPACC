@@ -5,7 +5,31 @@
 		[
 			[
 				"margi",
-				"margin-top"
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wrapp",
+				"wrapper-data"
+			],
+			[
+				"pla",
+				"placeholder	Attr"
+			],
+			[
+				"selected",
+				"selectedOption"
+			],
+			[
+				"colla",
+				"collapseTarget"
+			],
+			[
+				"data",
+				"data-toggle"
 			],
 			[
 				"min",
@@ -39,6 +63,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Rapid Prototyping/view-update.html",
+			"settings":
+			{
+				"buffer_size": 1655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Rapid Prototyping/Pension-plan-info.html",
+			"settings":
+			{
+				"buffer_size": 7643,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -150,15 +190,24 @@
 	],
 	"file_history":
 	[
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/password-reset-msg.html",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Attestation.html",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Employer-Type.html",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/employer-base-data.html",
-		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/create-new-msg.html",
-		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/css/style.css",
-		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/login.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/create-new-password.html",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/js/script.js",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/css/style.css",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/create-new-msg.html",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/home.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/login.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/password-login.html",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/register.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/reset-password.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Employer-Confirmation.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Pension-plan-info.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/view-update.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/Employee-Notice.html",
+		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/js/custom-plugin.js",
 		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/select.sublime-snippet",
 		"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping/index.html",
 		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/User/tool-tip.sublime-snippet",
@@ -268,16 +317,7 @@
 		"/Users/thiveya.muthu/Work/Ski/UI/src/components/winter-Activities-list/_winter-activities-list.scss",
 		"/Users/thiveya.muthu/Work/Ski/UI/src/components/subscription-form/demo/index.html",
 		"/Users/thiveya.muthu/Library/Application Support/Sublime Text 3/Packages/SCSS/font-size.sublime-snippet",
-		"/Users/thiveya.muthu/Work/Ski/UI/node_modules/grunt-browser-sync/node_modules/browser-sync/node_modules/browser-sync-ui/static/components/footer.html",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/styles/components/_colors.scss",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/components/site-navigation/_site-navigation.scss",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/components/featured-map/_featured-map.scss",
-		"/Users/thiveya.muthu/Work/Ski/UI/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/lib/hacks/block-logical.js",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ko-glance-block/_ko-glance-block.scss",
-		"/Users/thiveya.muthu/Work/Ski/UI/bower_components/compass/examples/blueprint_plugins/src/buttons.scss",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/main.scss",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ko-glance-block/demo/index.html",
-		"/Users/thiveya.muthu/Work/Ski/UI/src/components/ko-glance-block/ko-glance-block.html"
+		"/Users/thiveya.muthu/Work/Ski/UI/node_modules/grunt-browser-sync/node_modules/browser-sync/node_modules/browser-sync-ui/static/components/footer.html"
 	],
 	"find":
 	{
@@ -288,6 +328,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/thiveya.muthu/Documents/UX/ORPACC/Rapid Prototyping",
 			"*.js, ,/Users/thiveya.muthu/Desktop/Zone Style Library Assets/Scripts",
 			"*.js",
 			"/Users/thiveya.muthu/Work/Ski, *.scss",
@@ -302,6 +343,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<img class=\"logo\" src=\"assets/logo.png\" alt=\"header\" href=\"home.html\">",
+			"href=\"#\"",
+			"</li>",
+			"<li>",
+			"<a type=\"button\" class=\"btn btn-primary pull-right\" href=\"url\">Sign out</a>",
+			"wrapper-duplicate",
+			"collectively",
+			"col-sm-4 ",
+			"col-sm-5",
+			"col-sm-4",
+			"label-width",
+			"col-sm-5",
+			"col-sm-4 ",
+			"col-sm-5",
+			"col-sm-4",
+			"Hybrid",
+			"Select",
+			"PlanName",
+			"h1",
+			"collapse",
+			"mail",
 			"btn-container",
 			"Weekly",
 			"connect",
@@ -408,28 +470,7 @@
 			"elevation",
 			"Elevation",
 			"snow-conditions",
-			"fa fa-fw fa-external-link",
-			"href",
-			"search-result",
-			"snow",
-			"snow-conditions",
-			"resort",
-			"color(",
-			"color(\"",
-			"feature",
-			"social-channels",
-			"isInline",
-			"=\"\n",
-			"test-element",
-			"headerSubtitleFont",
-			"featured-link",
-			"resort-block",
-			"difficulty",
-			"skill__icon--easy-difficulty",
-			"Advanced",
-			"<dt><dd><i",
-			"<dl>",
-			"35px, 35px"
+			"fa fa-fw fa-external-link"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -437,6 +478,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"	<a href=\"home.html\">\n		<img class=\"logo\" src=\"assets/logo.png\" alt=\"header\">	\n	</a>",
+			"<a type=\"button\" class=\"btn btn-primary pull-right\" href=\"sign-out.html\">Sign out</a>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -447,13 +490,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Rapid Prototyping/view-update.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								863,
+								621
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "Rapid Prototyping/Pension-plan-info.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -485,7 +588,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.509311670155,
 			1.0
 		],
 		"rows":
@@ -517,8 +620,84 @@
 		"selected_items":
 		[
 			[
+				"pension-plan-info.html",
+				"Pension-plan-info.html"
+			],
+			[
+				"view",
+				"view-update.html"
+			],
+			[
+				"regis",
+				"register.html"
+			],
+			[
+				"login.html",
+				"login.html"
+			],
+			[
+				"create-new-msg.html",
+				"create-new-msg.html"
+			],
+			[
+				"login",
+				"login.html"
+			],
+			[
+				"attes",
+				"Attestation.html"
+			],
+			[
+				"employer",
+				"Employer-Type.html"
+			],
+			[
+				"employe",
+				"employer-base-data.html"
+			],
+			[
+				"create-ne",
+				"create-new-msg.html"
+			],
+			[
+				"register",
+				"register.html"
+			],
+			[
+				"home",
+				"home.html"
+			],
+			[
+				"employer-type.html",
+				"Employer-Type.html"
+			],
+			[
 				"empl",
 				"employer-base-data.html"
+			],
+			[
+				"attestation.html",
+				"Attestation.html"
+			],
+			[
+				"employer-base-data.html",
+				"employer-base-data.html"
+			],
+			[
+				"register.html",
+				"register.html"
+			],
+			[
+				"style",
+				"css/style.css"
+			],
+			[
+				"scrip",
+				"js/script.js"
+			],
+			[
+				"script",
+				"js/script.js"
 			],
 			[
 				"sty",
@@ -951,58 +1130,6 @@
 			[
 				"featoffer",
 				"UI/src/components/featured-offer/demo/index.html"
-			],
-			[
-				"componen.js",
-				"UI/src/components.js"
-			],
-			[
-				"componen.scss",
-				"UI/src/_components.scss"
-			],
-			[
-				"featured.html",
-				"UI/src/components/featured-offer/demo/index.html"
-			],
-			[
-				"butto",
-				"UI/bower_components/compass/examples/blueprint_plugins/src/buttons.scss"
-			],
-			[
-				"typograp",
-				"UI/src/styles/components/_typography.scss"
-			],
-			[
-				"mixin/colo",
-				"UI/src/styles/mixins/_color.scss"
-			],
-			[
-				"ko-glance-block.js",
-				"UI/src/components/ko-glance-block/ko-glance-block.js"
-			],
-			[
-				"glance-block",
-				"UI/src/components/glance-block/glance-block.js"
-			],
-			[
-				"glanceblock",
-				"UI/src/components/glance-block/glance-block.html"
-			],
-			[
-				"layout.html",
-				"views/global/layout.html"
-			],
-			[
-				"lsider.js",
-				"public/js/jquery.slider.js"
-			],
-			[
-				"macros/layout.html",
-				"views/global/macros/layout.html"
-			],
-			[
-				"blogpost.html",
-				"views/global/macros/blogPost.html"
 			]
 		],
 		"width": 0.0
@@ -1025,15 +1152,15 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 278.0,
+	"side_bar_visible": false,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
