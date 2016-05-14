@@ -70,15 +70,16 @@ $(function () {
     }
   });
 
+  // Save functionality 
+
+  $('[data-display=saved]').hide()
+    $('[data-toggle=saved]').on("click", function(){
+      $('[data-display=saved]').show()
+    })
+
 });
 
-//Hide and show - Radio button
 
-
-//Hide and show - Drop down
-
-
-//Duplicate form - Add another functionality
 
 
 

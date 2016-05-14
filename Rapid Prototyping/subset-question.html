@@ -1,93 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Government of Alberta</title>
-	
-	<!-- Bootstrap -->
-
-	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<!-- Custom code -->
-	<!-- <script src="js/script.js"></script> -->
-	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
-</head>
-<body>
-	<!-- Header -->
-	<header>
-	<div class="header-wrapper">
+	<head>
+		<meta charset="UTF-8">
+		<title>Government of Alberta</title>
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- Custom code -->
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="header-wrapper">
 				<a href="home.html">
-		<img class="logo" src="assets/logo.png" alt="header">	
-	</a>
-			<a type="button" class="btn btn-primary pull-right" href="sign-out.html">Sign out</a>
-		</div>
-	</header>
-	<!-- Content -->
-	<div class="main">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Subset information</h1>
-					<form>
-					<div class="form-group">
-					    <label for="Subset-question" class="control-label">Do you have a subset of employees not eligible for any pension plan?</label>
-					    <div class="yesno-options">
-					      <div class="radio">
-					        <label>
-					          <input type="radio" name="pension-yes-no" id="pension-yes-no" value="yes">
-					          Yes
-					        </label>
-					      </div>
-					      <div class="radio">
-					        <label>
-					          <input type="radio" name="pension-yes-no" id="pension-yes-no" value="no">
-					          No
-					        </label>
-					      </div>
-					    </div>
-					  </div>
-					</form>
-					<div class="btn-container">
-						<!-- No -->
-						<div class="col-md-offset-4 option-no" style="">
-							<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
-							<a type="button" class="btn btn-default" href="#">Save</a>											 	
-							<a type="button" class="btn btn-primary" href="subset-no.html">Next</a>			
-
-						</div>
-						<!-- Yes -->
-						<div class="col-md-offset-4 option-yes" style="display:none">
-							<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>											 	
-							<a type="button" class="btn btn-default" href="#">Save</a>											 	
-							<a type="button" class="btn btn-primary" href="subset-yes.html">Next</a>											 	
+					<img class="logo" src="assets/logo.png" alt="header">
+				</a>
+				<a type="button" class="btn btn-primary pull-right" href="sign-out.html">Sign out</a>
+			</div>
+		</header>
+		<!-- Content -->
+		<div class="main">
+			<div class="container-fluid">
+				<!-- Saved message -->
+				<div class="alert alert-warning alert-dismissible" role="alert" data-display="saved">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>Your information has been saved</div>
+				<!-- Saved message /END -->
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Subset information</h1>
+						<form>
+							<div class="form-group">
+								<label for="Subset-question" class="control-label">Do you have a subset of employees not eligible for any pension plan?</label>
+								<div class="yesno-options">
+										<label class="radio-inline">
+											<input type="radio" name="pension-yes-no" id="pension-yes-no" value="yes">
+											Yes
+										</label>
+										<label class="radio-inline">
+											<input type="radio" name="pension-yes-no" id="pension-yes-no" value="no">
+											No
+										</label>
+								</div>
+							</div>
+						</form>
+						<div class="btn-container">
+							<!-- No -->
+							<div class="col-md-offset-4 option-no" style="">
+								<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>
+								<a type="button" class="btn btn-default" data-toggle="saved" href="#">Save</a>
+								<a type="button" class="btn btn-primary" href="subset-no.html">Next</a>
+							</div>
+							<!-- Yes -->
+							<div class="col-md-offset-4 option-yes" style="display:none">
+								<a type="button" class="btn btn-default" href="employer-base-data.html">Back</a>
+								<a type="button" class="btn btn-default" data-toggle="saved" href="#">Save</a>
+								<a type="button" class="btn btn-primary" href="subset-yes.html">Next</a>
+							</div>
 						</div>
 					</div>
-				</div>				
-					</form>
-
-
-				</div>
+				</form>
 			</div>
 		</div>
-		<!-- Footer -->
-		<footer>
-			<div class="footer">
-				<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>		
-			</div>
-		</footer>
-		<script>
-			    $('.yesno-options input').change(function(){
-
-    if ($('.yesno-options input:checked').val() == 'yes'){
-      $('.option-yes').show();
-      $('.option-no').hide();
-    } else {
-      $('.option-no').show();
-      $('.option-yes').hide();
-    }
-  });
-		</script>
-	</body>
-	</html>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<div class="footer">
+			<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>
+		</div>
+	</footer>
+	<script>
+				$('.yesno-options input').change(function(){
+	if ($('.yesno-options input:checked').val() == 'yes'){
+	$('.option-yes').show();
+	$('.option-no').hide();
+	} else {
+	$('.option-no').show();
+	$('.option-yes').hide();
+	}
+	});
+	</script>
+</html>

@@ -20,6 +20,17 @@ header {
 
 .banner {
 	margin-bottom: 20px;
+	display: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    font-size: 25px;
+    color: #008FB1;
+    background-color: white;
+    padding: 15px;
 }
 
 /* Well */
@@ -34,6 +45,12 @@ header {
 
 .input-width {
 	width: 300px;
+}
+
+/* Alert*/
+
+.alert {
+	margin-top: 10px;
 }
 
 /* Label left align for form */
@@ -63,11 +80,19 @@ footer {
 	text-align: left;
 }
 
+.employer-type .tooltip-inner {
+    max-width: 600px;
+}
+
 /* Layout - Button container */
 
 .btn-container {
 		margin-top: 50px;
 
+}
+
+.list-group {
+	margin-top: 20px;
 }
 
 .btn-container a.btn {

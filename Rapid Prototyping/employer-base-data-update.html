@@ -27,10 +27,6 @@
 	<!-- Content -->
 	<div class="main">
 		<div class="container-fluid">
-				<div class="alert alert-success alert-dismissible" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-		<span aria-hidden="true">&times;</span>
-		</button>Your account has been successfully created. Fill the following form to complete the verification.</div>
 				<!-- Saved message -->
 
 		<div class="alert alert-warning alert-dismissible" role="alert" data-display="saved">
@@ -104,7 +100,6 @@
 							</div>
 						</div>
 
-
 						<div class="form-group">
 							<label for="mail" class="control-label">Is the employer location address same as mailing address?</label>
 							<div class="input-width yesno-options">
@@ -159,9 +154,9 @@
 								<input type="text" class="form-control" id="postalcode" placeholder="eg: H3K 84R">
 							</div>
 						</div>
-							
-						</div>
 
+
+						</div>
 
 						<div class="form-group">
 							<label for="phone" class="control-label">Employer phone</label>
@@ -275,14 +270,16 @@
 							shareholder” in subsection 248(1) of the Income
 							Tax Act."></span></label>
 								<div class="input-width">
-										<label class="radio-inline">
+																			<label class="radio-inline">
 											<input type="radio" name="connect" id="yes" value="yes">
 											Yes
 										</label>
-										<label class="radio-inline">
+
+																			<label class="radio-inline">
 											<input type="radio" name="connect" id="no" value="no">
 											No
 										</label>
+
 
 								</div>
 							</div>
@@ -301,8 +298,8 @@
 
 							<div class="btn-container">
 								<div class="col-md-offset-4">
-									<a type="button" class="btn btn-default" data-toggle="saved" href="#">Save</a>											 	
-									<a type="button" class="btn btn-primary" href="Employer-Type.html">Next</a>											 	
+									<a type="button" class="btn btn-default" href="view-update.html">Back</a>											 	
+									<a type="button" class="btn btn-primary" data-toggle="saved" href="#">Update</a>											 	
 								</div>
 							</div>
 
@@ -319,8 +316,8 @@
 				<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>		
 			</div>
 		</footer>
-				<script>
-				      $('.option-no').hide();
+						<script>
+						      $('.option-no').hide();
 			    $('.yesno-options input').change(function(){
 
     if ($('.yesno-options input:checked').val() == 'no'){
@@ -332,6 +329,5 @@
     }
   });
 		</script>
-
 	</body>
 	</html>
