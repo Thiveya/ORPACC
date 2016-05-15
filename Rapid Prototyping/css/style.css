@@ -6,32 +6,26 @@ header {
 }
 
 .header-wrapper {
-	width: 902px;
 	margin: auto;
-	padding: 20px 0px;
+	padding: 20px 20px;
 }
 
 .main {
 	margin: auto;
-	width: 930px;
 	margin-bottom: 40px;
 	min-height: 560px;
 }
 
-.banner {
-	margin-bottom: 20px;
-	display: relative;
+
+.banner img {
+	width: 100%;
 }
 
 .banner h1 {
-    position: absolute;
-    top: 100px;
-    left: 45px;
     font-size: 25px;
     color: #008FB1;
-    background-color: white;
-    padding: 15px;
 }
+
 
 /* Well */
 
@@ -70,7 +64,6 @@ footer {
 
 .footer {
 	margin: auto;
-	width: 930px;
 }
 
 
@@ -115,22 +108,34 @@ h3 {
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-	.main {
-		margin: auto;
-		width: 100%;
-	}
+@media (min-width: 768px) {
+	.banner {
+	margin-bottom: 20px;
+	display: relative;
+}
+
+.banner h1 {
+    padding: 15px;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    background-color: white;
+}
+
+
+.well {
+	margin-top: 20px;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
-	.main {
-		margin: auto;
-		width: 930px;
-	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) {
+
 
 }

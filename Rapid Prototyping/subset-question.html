@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/validator.js"></script>
 		<!-- Custom code -->
 		<script src="js/script.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
@@ -16,7 +17,7 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<div class="header-wrapper">
+			<div class="header-wrapper container">
 				<a href="home.html">
 					<img class="logo" src="assets/logo.png" alt="header">
 				</a>
@@ -25,7 +26,7 @@
 		</header>
 		<!-- Content -->
 		<div class="main">
-			<div class="container-fluid">
+			<div class="container">
 				<!-- Saved message -->
 				<div class="alert alert-warning alert-dismissible" role="alert" data-display="saved">
 					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -35,7 +36,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1>Subset information</h1>
-						<form>
+							<form data-toggle="validator" role="form">
+
 							<div class="form-group">
 								<label for="Subset-question" class="control-label">Do you have a subset of employees not eligible for any pension plan?</label>
 								<div class="yesno-options">
@@ -71,8 +73,8 @@
 	</div>
 	<!-- Footer -->
 	<footer>
-		<div class="footer">
-			<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>
+		<div class="footer container">
+			<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Government of FCV Interactive</small></p>
 		</div>
 	</footer>
 	<script>

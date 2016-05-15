@@ -59,22 +59,35 @@ $(function () {
 
 //Radio hide and show
 
-  $('.yesno-options input').change(function(){
+  // $('.yesno-options input').change(function(){
 
-    if ($('.yesno-options input:checked').val() == 'yes'){
-      $('.option-yes').show();
-      $('.option-no').hide();
-    }else{
-      $('.option-no').show();
-      $('.option-yes').hide();
-    }
-  });
+  //   if ($('.yesno-options input:checked').val() == 'yes'){
+  //     $('.option-yes').show();
+  //     $('.option-no').hide();
+  //   }else{
+  //     $('.option-no').show();
+  //     $('.option-yes').hide();
+  //   }
+  // });
 
   // Save functionality 
 
   $('[data-display=saved]').hide()
     $('[data-toggle=saved]').on("click", function(){
       $('[data-display=saved]').show()
+    })
+
+    // Form validation 
+    var url = $('button[type=submit]').attr('href');
+    console.log(url);
+    $('form').validator().on('submit', function (e) {
+    if (e.isDefaultPrevented()) {
+    // handle the invalid form...
+    } else {
+    // everything looks good!
+    e.preventDefault();
+    location.assign(url);
+    }
     })
 
 });

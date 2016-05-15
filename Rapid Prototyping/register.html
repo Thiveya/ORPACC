@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/validator.js"></script>
 	<!-- Custom code -->
 	<script src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
@@ -17,59 +18,63 @@
 <body>
 	<!-- Header -->
 	<header>
-	<div class="header-wrapper">
+	<div class="header-wrapper container">
 	<a href="home.html"><img class="logo" src="assets/logo.png" alt="header"></a>
 			<a type="button" class="btn btn-primary pull-right" href="sign-out.html">Sign out</a>
 		</div>
 	</header>
 	<!-- Content -->
 	<div class="main">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Create new account</h1>
 					<p>Enter information in the following fields to create a new employer account. A registered
 						account is required to complete the Employer Verification process.</p>
-						<form class="">
+							<form data-toggle="validator" role="form">
+
 							<div class="form-group">
 								<label for="UserID" class="control-label">User name</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="UserID" placeholder="Enter your preffered user name here." 		data-toggle="tooltip" data-placement="right" data-trigger="focus" title="User ID is the Business Number (BN).">
+									<input type="text" class="form-control" id="UserID" placeholder="" 		data-toggle="tooltip" data-placement="right" data-trigger="focus" title="User ID is the Business Number (BN)." required>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="Password" class="control-label">Password</label>
 								<div class="input-width">
-									<input type="password" class="form-control" id="Password" placeholder="Enter new password here" 		data-toggle="tooltip" data-placement="right" data-trigger="focus" title="Password must be a minimum of 8 character, with at aleast 1 uppercase and one number.">
+									<input type="password" class="form-control" id="Password" placeholder="Enter password" 		data-toggle="tooltip" data-placement="right" data-trigger="focus" title="Password must be a minimum of 8 character, with at aleast 1 uppercase and one number." data-minlength="8" required>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="ConfirmPass" class="control-label">Confirm Password</label>
 								<div class="input-width">
-									<input type="password" class="form-control" id="ConfirmPass" placeholder="Enter your password again">
+									<input type="password" class="form-control" id="ConfirmPass" placeholder="Enter password again" data-match="#Password" data-match-error="Whoops, password doesn't match" required>
+									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="ContactName" class="control-label">Contact name</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="ContactName" placeholder="Enter your contact name">
+									<input type="text" class="form-control" id="ContactName" placeholder="Enter the contact person name" required>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="Contitle" class="control-label">Contact Title</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="Contitle" placeholder="Enter the contact person's title here">
+									<input type="text" class="form-control" id="Contitle" placeholder="Enter the contact person's title here" required>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="Email" class="control-label">E-mail address</label>
 								<div class="input-width">
-									<input type="email" class="form-control" id="Email" placeholder="Enter your email here">
+									<input type="email" class="form-control" id="Email" placeholder="Enter email here" required data-error="Invalid email">
+									<div class="help-block with-errors"></div>
+
 								</div>
 							</div>
 
@@ -80,14 +85,16 @@
 							<div class="form-group">
 								<label for="Employer name" class="control-label">Employer name</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="Employer name" placeholder="Enter something here">
+									<input type="text" class="form-control" id="Employer name" placeholder="" required>
 								</div>
 							</div>
 
 							<div class="form-group">
 								<label for="Busnumber" class="control-label">Business number</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="Busnumber" placeholder="Enter your business number here" data-toggle="tooltip" data-placement="right" data-trigger="focus" data-viewport="body" title="9 digit business number">
+									<input type="number" class="form-control" id="Busnumber" placeholder="" data-minlength="9" data-error="You have entered an invalid business number" data-toggle="tooltip" data-placement="right" data-trigger="focus" data-viewport="body" title="9 digit business number" required>
+									<div class="help-block with-errors"></div>
+
 								</div>
 							</div>
 
@@ -111,7 +118,7 @@
 							<div class="form-group">
 								<label for="ans2" class="control-label">Answer</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="ans2" placeholder="Enter your answer here">
+									<input type="text" class="form-control" id="ans2" placeholder="Enter your answer here" required>
 								</div>
 							</div>
 
@@ -131,7 +138,7 @@
 							<div class="form-group">
 								<label for="ans3" class="control-label">Answer</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="ans3" placeholder="Enter your answer here">
+									<input type="text" class="form-control" id="ans3" placeholder="Enter your answer here" required>
 								</div>
 							</div>
 
@@ -151,13 +158,13 @@
 							<div class="form-group">
 								<label for="ans" class="control-label">Answer</label>
 								<div class="input-width">
-									<input type="text" class="form-control" id="ans" placeholder="Enter your answer here">
+									<input type="text" class="form-control" id="ans" placeholder="Enter your answer here" required>
 								</div>
 							</div>
 							<p>
 								<div class="btn-container">
 								 <div class="col-md-offset-4">
-									<a type="button" class="btn btn-primary" href="employer-base-data.html">Create account</a>											 	
+									<button type="submit" class="btn btn-primary" href="employer-base-data.html">Create account</button>											 	
 								 </div>
 								</div>
 							</p>
@@ -168,8 +175,8 @@
 		</div>
 		<!-- Footer -->
 		<footer>
-			<div class="footer">
-				<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Governament of FCV Interactive</small></p>		
+			<div class="footer container">
+				<p><small><span class="glyphicon glyphicon-copyright-mark"></span> Government of FCV Interactive</small></p>		
 			</div>
 		</footer>
 	</body>
